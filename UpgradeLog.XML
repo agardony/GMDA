@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MapDrawingAnalyzer">
+</Property><Property Name="Solution File" Value="C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer.sln">
+</Property><Property Name="User Options File" Value="C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer.suo">
+</Property><Property Name="Date" Value="Tuesday, May 31, 2011">
+</Property><Property Name="Time" Value="10:28 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MapDrawingAnalyzer.sln" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MapDrawingAnalyzer.suo" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer.suo">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\MapDrawingAnalyzer.csproj" Description="Project file successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\MapDrawingAnalyzer.csproj">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\MapDrawingAnalyzer.csproj.user" Description="Project user file successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\MapDrawingAnalyzer.csproj.user">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\Form1.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\Form1.cs">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\Form1.Designer.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\Program.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\Program.cs">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\Properties\Settings.settings" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\Form1.resx" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\Form1.resx">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\Properties\Resources.resx" Description="File successfully backed up as C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\Backup\MapDrawingAnalyzer\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\MapDrawingAnalyzer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\MapDrawingAnalyzer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MapDrawingAnalyzer.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MapDrawingAnalyzer.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MapDrawingAnalyzer" Source="MapDrawingAnalyzer\MapDrawingAnalyzer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

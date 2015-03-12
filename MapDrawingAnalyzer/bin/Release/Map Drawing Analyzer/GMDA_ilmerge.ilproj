@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <!--Switches-->
+  <CopyAttributes Enabled="false" />
+  <UnionDuplicates Enabled="false" />
+  <Debug Enabled="1" />
+  <Internalize Enabled="false" />
+  <MergeXml Enabled="false" />
+  <!--Signing-->
+  <Sign Enabled="false" Delay="false"></Sign>
+  <!--Logging-->
+  <Log Enabled="false">C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\Map Drawing Analyzer\Ilmerge\dest\GMDA.log</Log>
+  <!--Assemblies-->
+  <Assemblies>
+    <Assembly>C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\Map Drawing Analyzer\Ilmerge\MessageBoxManager.dll</Assembly>
+    <Assembly>C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\Map Drawing Analyzer\Ilmerge\AppLimit.NetSparkle.dll</Assembly>
+    <Assembly>C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\Map Drawing Analyzer\Ilmerge\GMDA.exe</Assembly>
+    <Primary>C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\Map Drawing Analyzer\Ilmerge\GMDA.exe</Primary>
+  </Assemblies>
+  <!--Output-->
+  <OutputAssembly>C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\Map Drawing Analyzer\Ilmerge\dest\GMDA.exe</OutputAssembly>
+  <Framework>.NET Framework v4 Full</Framework>
+</Settings>

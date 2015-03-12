@@ -1,0 +1,10 @@
+del GMDA.exe
+copy MapDrawingAnalyzer.exe "MapDrawingAnalyzerTemp.exe"
+ren MapDrawingAnalyzerTemp.exe "GMDA.exe"
+copy GMDA.exe "Map Drawing Analyzer" /Y
+copy GMDA.exe "Map Drawing Analyzer\Ilmerge" /Y
+"C:\Program Files (x86)\Microsoft\ILMerge\ILMerge.exe" "Map Drawing Analyzer\Ilmerge\GMDA.exe" "Map Drawing Analyzer\Ilmerge\MessageBoxManager.dll" "Map Drawing Analyzer\Ilmerge\AppLimit.NetSparkle.dll" /targetplatform:v4,"C:\Windows\Microsoft.NET\Framework\v4.0.30319" /t:winexe /out:"Map Drawing Analyzer\Ilmerge\dest\GMDA.exe"
+copy "Map Drawing Analyzer\Ilmerge\dest\GMDA.exe" "C:\Users\xAdmin\Dropbox\GMDA\ForDistribution" /Y
+"C:\Program Files (x86)\Caphyon\Advanced Installer 10.3\bin\x86\AdvancedInstaller.com" /edit "C:\Users\xAdmin\Documents\Advanced Installer\Projects\Gardony Map Drawing Analyzer (GMDA)\GMDA_setup.aip" /SetVersion 1.0
+"C:\Program Files (x86)\Caphyon\Advanced Installer 10.3\bin\x86\AdvancedInstaller.com" /build "C:\Users\xAdmin\Documents\Advanced Installer\Projects\Gardony Map Drawing Analyzer (GMDA)\GMDA_setup.aip"
+copy "C:\Users\xAdmin\Documents\Advanced Installer\Projects\Gardony Map Drawing Analyzer (GMDA)\GMDA_setup-SetupFiles\GMDA_setup.msi" "C:\Users\xAdmin\Dropbox\GMDA\ForDistribution" /Y

@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MapDrawingAnalyzer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="prevCoordsFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">template</Value>
+    </Setting>
+    <Setting Name="prevZoomLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="currentMode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">basic</Value>
+    </Setting>
+    <Setting Name="rectColor" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="rectCentColor" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="BDR_IV" Type="System.String" Scope="User">
+      <Value Profile="(Default)">actual</Value>
+    </Setting>
+    <Setting Name="movableZoomWindow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

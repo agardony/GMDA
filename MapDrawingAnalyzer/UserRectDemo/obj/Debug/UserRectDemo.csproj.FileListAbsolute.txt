@@ -1,0 +1,4 @@
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\obj\Debug\UserRectDemo.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\obj\Debug\GenerateResource.write.1.tlog

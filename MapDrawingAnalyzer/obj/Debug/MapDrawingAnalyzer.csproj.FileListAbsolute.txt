@@ -1,0 +1,48 @@
+C:\Users\xAdmin\AppData\Local\Temporary Projects\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\AppData\Local\Temporary Projects\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\AppData\Local\Temporary Projects\MapDrawingAnalyzer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xAdmin\AppData\Local\Temporary Projects\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\AppData\Local\Temporary Projects\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\AppData\Local\Temporary Projects\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.csproj.GenerateResource.Cache
+C:\Users\xAdmin\AppData\Local\Temporary Projects\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\AppData\Local\Temporary Projects\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.csproj.GenerateResource.Cache
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.exe.config
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.exe
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.pdb
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.exe
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.pdb
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Debug\AppLimit.NetSparkle.dll
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Debug\MessageBoxManager.dll
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.csprojResolveAssemblyReference.cache
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.batchAnalysisProgressBar.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.advancedCoordsFileBuilder.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Form1.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Form2.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Properties.Resources.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.csproj.GenerateResource.Cache
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.exe.config
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.exe
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.pdb
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Debug\AppLimit.NetSparkle.dll
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Debug\MessageBoxManager.dll
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.batchAnalysisProgressBar.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.advancedCoordsFileBuilder.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Form1.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Form2.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.Properties.Resources.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.csproj.GenerateResource.Cache
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.exe
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.pdb
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.exe.manifest
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Debug\MapDrawingAnalyzer.application
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.TrustInfo.xml
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.exe.manifest
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Debug\MapDrawingAnalyzer.application

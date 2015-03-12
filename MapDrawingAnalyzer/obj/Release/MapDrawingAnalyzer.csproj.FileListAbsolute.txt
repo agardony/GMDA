@@ -1,0 +1,163 @@
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\obj\Release\ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v2\MapDrawingAnalyzer\obj\Release\ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\obj\Release\ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v3\MapDrawingAnalyzer\obj\Release\ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.coordsFileBuilder.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v4\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.coordsFileBuilder.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5\MapDrawingAnalyzer\obj\Release\ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.coordsFileBuilder.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\obj\Release\ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v5 - Copy\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.coordsFileBuilder.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer v6\MapDrawingAnalyzer\obj\Release\ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.advancedCoordsFileBuilder.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\bin\Release\MessageBoxManager.dll
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form2.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\bin\Release\MessageBoxManager.dll
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.advancedCoordsFileBuilder.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form2.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof - Copy (2)\MapDrawingAnalyzer\obj\Release\ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\bin\Release\MessageBoxManager.dll
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.advancedCoordsFileBuilder.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form2.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\ResGen.read.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2\MapDrawingAnalyzer\obj\Release\ResGen.write.1.tlog
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.advancedCoordsFileBuilder.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form2.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\bin\Release\MessageBoxManager.dll
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.batchAnalysisProgressBar.resources
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\Backup_1.23.14\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\Backup_1.23.14\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\Backup_1.23.14\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.csprojResolveAssemblyReference.cache
+C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof v2 wih autoupdate\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.csproj.GenerateResource.Cache
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.config
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.pdb
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe.manifest
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.application
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.exe
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Release\MapDrawingAnalyzer.pdb
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\bin\Release\MessageBoxManager.dll
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.batchAnalysisProgressBar.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.advancedCoordsFileBuilder.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form1.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Form2.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.Properties.Resources.resources
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.csproj.GenerateResource.Cache
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.TrustInfo.xml
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.exe.manifest
+E:\Documents\Work PC Documents\Visual Studio 2008\Projects\GMDA for github\MapDrawingAnalyzer\obj\Release\MapDrawingAnalyzer.application

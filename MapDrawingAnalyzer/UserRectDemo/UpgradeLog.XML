@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UserRectDemo">
+</Property><Property Name="Solution File" Value="C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\UserRectDemo.sln">
+</Property><Property Name="Date" Value="Thursday, February 28, 2013">
+</Property><Property Name="Time" Value="13:28 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="UserRectDemo.sln" Description="File successfully backed up as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\UserRectDemo.sln">
+</Event><Event ErrorLevel="0" Project="UserRectDemo" Source="UserRectDemo.csproj" Description="Project file successfully backed up as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\UserRectDemo.csproj">
+</Event><Event ErrorLevel="0" Project="UserRectDemo" Source="Form1.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="UserRectDemo" Source="Form1.Designer.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="UserRectDemo" Source="Program.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\Program.cs">
+</Event><Event ErrorLevel="2" Project="UserRectDemo" Source="Properties\AssemblyInfo.cs" Description="Failed to backup file as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="2" Project="UserRectDemo" Source="Properties\Resources.Designer.cs" Description="Failed to backup file as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="2" Project="UserRectDemo" Source="Properties\Settings.Designer.cs" Description="Failed to backup file as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="UserRectDemo" Source="UserRect.cs" Description="File successfully backed up as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\UserRect.cs">
+</Event><Event ErrorLevel="2" Project="UserRectDemo" Source="Properties\Settings.settings" Description="Failed to backup file as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="UserRectDemo" Source="Form1.resx" Description="File successfully backed up as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\Form1.resx">
+</Event><Event ErrorLevel="2" Project="UserRectDemo" Source="Properties\Resources.resx" Description="Failed to backup file as C:\Users\xAdmin\Documents\Work PC Documents\Visual Studio 2008\Projects\MapDrawingAnalyzer goof\MapDrawingAnalyzer\UserRectDemo\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="UserRectDemo" Source="UserRectDemo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UserRectDemo" Source="UserRectDemo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UserRectDemo.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="UserRectDemo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UserRectDemo" Source="UserRectDemo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
