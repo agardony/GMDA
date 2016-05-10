@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 // Copyright 2014 Aaron Gardony
 // This program is distributed under the terms of the GNU General Public License
-// last update: 4/17/14 by Aaron Gardony
+// last update: 5/09/16 by Aaron Gardony
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
@@ -35,5 +35,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.2.*")] // prior to building make sure to change /SetVersion x.x to the new version!
-[assembly: AssemblyFileVersion("1.2")]
+[assembly: AssemblyVersion("1.3.*")] // prior to building make sure to change /SetVersion x.x to the new version!
+[assembly: AssemblyFileVersion("1.3")]
