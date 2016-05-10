@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="MapDrawingAnalyzer.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="MapDrawingAnalyzer" version="1.2.5549.14604" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="MapDrawingAnalyzer" version="1.3.5973.26033" language="neutral" processorArchitecture="msil" />
     <commandLine file="MapDrawingAnalyzer.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MapDrawingAnalyzer.exe" size="305064">
-      <assemblyIdentity name="MapDrawingAnalyzer" version="1.2.5549.14604" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MapDrawingAnalyzer.exe" size="305576">
+      <assemblyIdentity name="MapDrawingAnalyzer" version="1.3.5973.26033" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>yhcz5xXxvvPMIOyimRSca5DolGk=</dsig:DigestValue>
+        <dsig:DigestValue>OnIq9PxNH6Aj1F7xeFmDW61lELA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
