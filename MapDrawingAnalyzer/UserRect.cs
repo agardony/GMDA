@@ -4,6 +4,7 @@ using System.Text;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
+using System.Globalization;
 using PointDClass;
 // Copyright 2014 Aaron Gardony
 // This program is distributed under the terms of the GNU General Public License
@@ -135,11 +136,11 @@ namespace UserRectDemo
             SetPictureBox(missingPBox, mPictureBox);
             if (isMissing)
             {
-                setRect(new Point(Convert.ToInt32(rect.X / 2.33), rect.Y / 50), new Size(30, 30));
+                setRect(new Point(Convert.ToInt32(rect.X / 2.33, CultureInfo.InvariantCulture), rect.Y / 50), new Size(30, 30));
             }
             else
             {
-                rect.X = Convert.ToInt32(rect.X * 2.33);
+                rect.X = Convert.ToInt32(rect.X * 2.33, CultureInfo.InvariantCulture);
                 rect.Y = rect.Y * 50;
             }
             this.mMove = false;

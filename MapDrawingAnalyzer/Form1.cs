@@ -10,13 +10,14 @@ using System.Drawing.Drawing2D;
 using System.IO;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
+using System.Globalization;
 using UserRectDemo;
 using PointDClass;
 using Plexiglass;
 using AppLimit.NetSparkle;
 // Copyright 2014 Aaron Gardony
 // This program is distributed under the terms of the GNU General Public License
-// last update: 4/17/14 by Aaron Gardony
+// last update: 5/09/16 by Aaron Gardony
 namespace MapDrawingAnalyzer
 {
     public partial class Form1 : Form
@@ -305,7 +306,7 @@ namespace MapDrawingAnalyzer
                                 tempArray = thisLine.Split(',');
                                 if (!tempArray[0].Equals(lastLandmark))
                                 {
-                                    tb_legend.Text += Convert.ToString(1 + Convert.ToInt32(tempArray[1]) / 8) + ". " + tempArray[0] + "\r\n"; // update legend
+                                    tb_legend.Text += Convert.ToString(1 + Convert.ToInt32(tempArray[1], CultureInfo.InvariantCulture) / 8) + ". " + tempArray[0] + "\r\n"; // update legend
                                     landmarkNames.Add(tempArray[0]);
                                     lastLandmark = tempArray[0];
                                     numLandmarks++;
@@ -315,7 +316,7 @@ namespace MapDrawingAnalyzer
                         for (int i = 0; i < tempArray.Length - 1; i++)
                         {
                             // add actual map coordinates to list
-                            actualMapCoordinates[i].Add(Convert.ToDouble(tempArray[i + 1]));
+                            actualMapCoordinates[i].Add(Convert.ToDouble(tempArray[i + 1], CultureInfo.InvariantCulture));
                             // add dummy values for participant's map coordinates
                             //if (i == 0) { participantsMapCoordinates[i].Add(tempArray[i + 1]); }
                             //else { participantsMapCoordinates[i].Add("M"); }
@@ -620,7 +621,7 @@ namespace MapDrawingAnalyzer
             }
             p.Padding = new Padding(4);
             p.Refresh();
-            Properties.Settings.Default.rectColor = Convert.ToInt32(p.Tag);
+            Properties.Settings.Default.rectColor = Convert.ToInt32(p.Tag, CultureInfo.InvariantCulture);
             Properties.Settings.Default.Save();
             foreach (UserRect ur in allRects)
             {
@@ -638,7 +639,7 @@ namespace MapDrawingAnalyzer
             }
             p.Padding = new Padding(4);
             p.Refresh();
-            Properties.Settings.Default.rectCentColor = Convert.ToInt32(p.Tag);
+            Properties.Settings.Default.rectCentColor = Convert.ToInt32(p.Tag, CultureInfo.InvariantCulture);
             Properties.Settings.Default.Save();
             foreach (UserRect ur in allRects)
             {
@@ -693,13 +694,13 @@ namespace MapDrawingAnalyzer
                     if (tempImage.Width >= tempImage.Height) // Case 1a: the width of the loaded image exceeds or is is equal to its height
                     {
                         downscale = (double)picturebox_map.Width / (double)tempImage.Width;
-                        newHeight = Convert.ToInt32(downscale * tempImage.Height);
+                        newHeight = Convert.ToInt32(downscale * tempImage.Height, CultureInfo.InvariantCulture);
                         finalImg = new Bitmap(tempImage, picturebox_map.Width, newHeight);
                     }
                     else if (tempImage.Height > tempImage.Width) // Case 1b: the height of the loaded image exceeds its width
                     {
                         downscale = (double)picturebox_map.Height / (double)tempImage.Height;
-                        newWidth = Convert.ToInt32(downscale * tempImage.Width);
+                        newWidth = Convert.ToInt32(downscale * tempImage.Width, CultureInfo.InvariantCulture);
                         finalImg = new Bitmap(tempImage, newWidth, picturebox_map.Height);
                     }
                 }
@@ -709,13 +710,13 @@ namespace MapDrawingAnalyzer
                     if (tempImage.Width >= tempImage.Height) // Case 2a: the width of the loaded image exceeds or is is equal to its height
                     {
                         upscale = (double)picturebox_map.Width / (double)tempImage.Width;
-                        newHeight = Convert.ToInt32(upscale * tempImage.Height);
+                        newHeight = Convert.ToInt32(upscale * tempImage.Height, CultureInfo.InvariantCulture);
                         finalImg = new Bitmap(tempImage, picturebox_map.Width, newHeight);
                     }
                     else if (tempImage.Height > tempImage.Width) // Case 2b: the height of the loaded image exceeds its width
                     {
                         upscale = (double)picturebox_map.Height / (double)tempImage.Height;
-                        newWidth = Convert.ToInt32(upscale * tempImage.Width);
+                        newWidth = Convert.ToInt32(upscale * tempImage.Width, CultureInfo.InvariantCulture);
                         finalImg = new Bitmap(tempImage, newWidth, picturebox_map.Height);
                     }
                 }
@@ -836,7 +837,7 @@ namespace MapDrawingAnalyzer
                                 string result = file.Substring(0, file.Length - extension.Length); // remove extension
                                 string[] tempArray = result.Split(new string[] { searchString }, StringSplitOptions.None);
                                 calculate(false, multifile, tempArray[tempArray.Length - 1]);
-                                int pbVal = Convert.ToInt32((Convert.ToDouble(fileCounter) / Convert.ToDouble(nFiles)) * 100);
+                                int pbVal = Convert.ToInt32((Convert.ToDouble(fileCounter, CultureInfo.InvariantCulture) / Convert.ToDouble(nFiles, CultureInfo.InvariantCulture)) * 100, CultureInfo.InvariantCulture);
                                 pb_batchAnalysis.setPB(pbVal);
                                 fileCounter++;
                             }
@@ -913,8 +914,8 @@ namespace MapDrawingAnalyzer
                             {
                                 if (tempArray.Length != 3) { throw new FormatException(); } // tests to see if config file is from incorrect mode (advanced)
                                 // load configuration
-                                left.Add(Convert.ToInt32(tempArray[1]));
-                                top.Add(Convert.ToInt32(tempArray[2]));
+                                left.Add(Convert.ToInt32(tempArray[1], CultureInfo.InvariantCulture));
+                                top.Add(Convert.ToInt32(tempArray[2], CultureInfo.InvariantCulture));
                             }
                             else
                             {
@@ -922,7 +923,7 @@ namespace MapDrawingAnalyzer
                                 {
                                     // CASE: config file is version 2 (includes rotation info)
                                     backupRot = currentRot;
-                                    tempRot1 = Convert.ToInt32(tempArray[1]);
+                                    tempRot1 = Convert.ToInt32(tempArray[1], CultureInfo.InvariantCulture);
                                 }
                             }
                         }
@@ -1005,7 +1006,7 @@ namespace MapDrawingAnalyzer
                             if (!tempArray[0].Equals("currentRot = ") && !tempArray[0].Equals("Max d = "))
                             {
                                 if (tempArray.Length != 6) { throw new FormatException(); } // tests to see if config file is from incorrect mode (basic)
-                                Rectangle tempRect = new Rectangle(new Point(Convert.ToInt32(tempArray[1]), Convert.ToInt32(tempArray[2])), new Size(Convert.ToInt32(tempArray[3]), Convert.ToInt32(tempArray[4])));
+                                Rectangle tempRect = new Rectangle(new Point(Convert.ToInt32(tempArray[1], CultureInfo.InvariantCulture), Convert.ToInt32(tempArray[2], CultureInfo.InvariantCulture)), new Size(Convert.ToInt32(tempArray[3], CultureInfo.InvariantCulture), Convert.ToInt32(tempArray[4], CultureInfo.InvariantCulture)));
                                 tempUserRects.Add(new UserRect(tempRect, "dummy"));
                                 tempUserRects[tempUserRects.Count - 1].SetPictureBox(this.picturebox_map, this.picturebox_missingLandmarks);
                                 tempUserRects[tempUserRects.Count - 1].setMissing(Convert.ToBoolean(tempArray[5]));
@@ -1017,7 +1018,7 @@ namespace MapDrawingAnalyzer
                                     // CASE: config file is version 2 (includes rotation info)
                                     backupRot = currentRot;
                                     while (currentRot != 0) { rotateWorkspace(false, "cw"); } // rotate map to starting rotation
-                                    tempRot2 = Convert.ToInt32(tempArray[1]);
+                                    tempRot2 = Convert.ToInt32(tempArray[1], CultureInfo.InvariantCulture);
                                     while (tempRot2 != currentRot) { rotateWorkspace(false, "cw"); }
                                     currentRot = tempRot2;
                                 }
@@ -1566,10 +1567,10 @@ namespace MapDrawingAnalyzer
 
             for (int i = 0; i < allCombos[0].Count; i++) // make comparisons, update counters
             {
-                
-                tempArray = compareLandmarks((Convert.ToInt32(allCombos[0][i]) + 1), (Convert.ToInt32(allCombos[1][i]) + 1));
-                int source = Convert.ToInt32(allCombos[0][i]);
-                int target = Convert.ToInt32(allCombos[1][i]);
+
+                tempArray = compareLandmarks((Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture) + 1), (Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture) + 1));
+                int source = Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture);
+                int target = Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture);
                 // N/S comparison
                 if (tempArray[0].Equals(allCombos[2][i])) 
                 { 
@@ -1603,13 +1604,13 @@ namespace MapDrawingAnalyzer
                     GMDA_by_landmarks[source][1].Add(2.0);
                     GMDA_by_landmarks[target][1].Add(2.0);
                     observedDistance = getDistance(sourceLandmarkNum, targetLandmarkNum).ToString();
-                    OminusADistance = Convert.ToDouble(tempArray[2]) - Convert.ToDouble(allCombos[5][i]);
+                    OminusADistance = Convert.ToDouble(tempArray[2], CultureInfo.InvariantCulture) - Convert.ToDouble(allCombos[5][i], CultureInfo.InvariantCulture);
                     ABSOminusADistance = Math.Abs(OminusADistance);
 
                     distanceSum += OminusADistance;
                     ABSdistanceSum += ABSOminusADistance;
 
-                    OminusAAngle = Convert.ToDouble(tempArray[3]) - Convert.ToDouble(allCombos[6][i]);
+                    OminusAAngle = Convert.ToDouble(tempArray[3], CultureInfo.InvariantCulture) - Convert.ToDouble(allCombos[6][i], CultureInfo.InvariantCulture);
                     // these are converted to radians here
                     double sinA = Math.Sin((Math.PI / 180) * OminusAAngle);
                     double cosA = Math.Cos((Math.PI / 180) * OminusAAngle);
@@ -1646,14 +1647,14 @@ namespace MapDrawingAnalyzer
                     switch (currentMode)
                     {
                         case "basic":
-                            sourceLandmarkIndex = Convert.ToInt32(allCombos[0][i]);
-                            targetLandmarkIndex = Convert.ToInt32(allCombos[1][i]);
+                            sourceLandmarkIndex = Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture);
+                            targetLandmarkIndex = Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture);
                             sourceLandmark = landmarkNames[sourceLandmarkIndex];
                             targetLandmark = landmarkNames[targetLandmarkIndex];
                             break;
                         case "advanced":
-                            sourceLandmarkIndex = Convert.ToInt32(allCombos[0][i]) / 8;
-                            targetLandmarkIndex = Convert.ToInt32(allCombos[1][i]) / 8;
+                            sourceLandmarkIndex = Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture) / 8;
+                            targetLandmarkIndex = Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture) / 8;
                             sourceLandmark = landmarkNames[sourceLandmarkIndex] + "_" + allCombos[0][i];
                             targetLandmark = landmarkNames[targetLandmarkIndex] + "_" + allCombos[1][i];
                             break;
@@ -1748,7 +1749,7 @@ namespace MapDrawingAnalyzer
                         string landmarkName = "";
                         if (!landmarkMissing(i + 1))
                         {
-                            int numDistAngComparisons = Convert.ToInt32(GMDA_by_landmarks[i][1].Sum()) / 2;
+                            int numDistAngComparisons = Convert.ToInt32(GMDA_by_landmarks[i][1].Sum(), CultureInfo.InvariantCulture) / 2;
                             int index = i;
                             int jLim = 1;
                             if (currentMode.Equals("advanced")) 
@@ -1857,16 +1858,16 @@ namespace MapDrawingAnalyzer
                         switch (currentBDR_mode)
                         {
                             case "actual":
-                                x = Convert.ToDouble(actualMapCoordinates[1][currentIndex]);
-                                y = Convert.ToDouble(actualMapCoordinates[2][currentIndex]);
-                                a = Convert.ToDouble(participantsMapCoordinates[1][currentIndex]);
-                                b = Convert.ToDouble(participantsMapCoordinates[2][currentIndex]);
+                                x = Convert.ToDouble(actualMapCoordinates[1][currentIndex], CultureInfo.InvariantCulture);
+                                y = Convert.ToDouble(actualMapCoordinates[2][currentIndex], CultureInfo.InvariantCulture);
+                                a = Convert.ToDouble(participantsMapCoordinates[1][currentIndex], CultureInfo.InvariantCulture);
+                                b = Convert.ToDouble(participantsMapCoordinates[2][currentIndex], CultureInfo.InvariantCulture);
                                 break;
                             case "participant's":
-                                x = Convert.ToDouble(participantsMapCoordinates[1][currentIndex]);
-                                y = Convert.ToDouble(participantsMapCoordinates[2][currentIndex]);
-                                a = Convert.ToDouble(actualMapCoordinates[1][currentIndex]);
-                                b = Convert.ToDouble(actualMapCoordinates[2][currentIndex]);
+                                x = Convert.ToDouble(participantsMapCoordinates[1][currentIndex], CultureInfo.InvariantCulture);
+                                y = Convert.ToDouble(participantsMapCoordinates[2][currentIndex], CultureInfo.InvariantCulture);
+                                a = Convert.ToDouble(actualMapCoordinates[1][currentIndex], CultureInfo.InvariantCulture);
+                                b = Convert.ToDouble(actualMapCoordinates[2][currentIndex], CultureInfo.InvariantCulture);
                                 break;
                         }
                         
@@ -1950,10 +1951,10 @@ namespace MapDrawingAnalyzer
                         if (nodes[L2 - 1].Left - nodes[L1 - 1].Left == 0) { NSEW[1] = "F"; }// If on the same X axis, code as wrong
                         break;
                     case "advanced":
-                        int l1_x = Convert.ToInt32(participantsMapCoordinates[1][L1 - 1]);
-                        int l1_y = Convert.ToInt32(participantsMapCoordinates[2][L1 - 1]);
-                        int l2_x = Convert.ToInt32(participantsMapCoordinates[1][L2 - 1]);
-                        int l2_y = Convert.ToInt32(participantsMapCoordinates[2][L2 - 1]);
+                        int l1_x = Convert.ToInt32(participantsMapCoordinates[1][L1 - 1], CultureInfo.InvariantCulture);
+                        int l1_y = Convert.ToInt32(participantsMapCoordinates[2][L1 - 1], CultureInfo.InvariantCulture);
+                        int l2_x = Convert.ToInt32(participantsMapCoordinates[1][L2 - 1], CultureInfo.InvariantCulture);
+                        int l2_y = Convert.ToInt32(participantsMapCoordinates[2][L2 - 1], CultureInfo.InvariantCulture);
 
                         if (l1_y > l2_y) { NSEW[0] = "N"; }
                         if (l1_y < l2_y) { NSEW[0] = "S"; }
@@ -2005,8 +2006,8 @@ namespace MapDrawingAnalyzer
                     p_L2 = getCartesianCoords(L2);
                     break;
                 case "advanced":
-                    p_L1 = new PointD(Convert.ToDouble(participantsMapCoordinates[1][L1 - 1]), Convert.ToDouble(participantsMapCoordinates[2][L1 - 1]));
-                    p_L2 = new PointD(Convert.ToDouble(participantsMapCoordinates[1][L2 - 1]), Convert.ToDouble(participantsMapCoordinates[2][L2 - 1]));
+                    p_L1 = new PointD(Convert.ToDouble(participantsMapCoordinates[1][L1 - 1], CultureInfo.InvariantCulture), Convert.ToDouble(participantsMapCoordinates[2][L1 - 1], CultureInfo.InvariantCulture));
+                    p_L2 = new PointD(Convert.ToDouble(participantsMapCoordinates[1][L2 - 1], CultureInfo.InvariantCulture), Convert.ToDouble(participantsMapCoordinates[2][L2 - 1], CultureInfo.InvariantCulture));
                     break;
             }
             
@@ -2055,10 +2056,10 @@ namespace MapDrawingAnalyzer
             double currentDist = 0.0;
             for (int i = 0; i < allCombos[0].Count; i++)
             {
-                tempArray = compareLandmarks((Convert.ToInt32(allCombos[0][i]) + 1), (Convert.ToInt32(allCombos[1][i]) + 1));
+                tempArray = compareLandmarks((Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture) + 1), (Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture) + 1));
                 if (!tempArray[0].Equals("M")) // if both landmarks are not missing
                 {
-                    currentDist = getDistance((Convert.ToInt32(allCombos[0][i]) + 1), (Convert.ToInt32(allCombos[1][i]) + 1)); // get distance b/w the two landmarks
+                    currentDist = getDistance((Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture) + 1), (Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture) + 1)); // get distance b/w the two landmarks
                     if (currentDist > maxDist)
                     {
                         maxDist = currentDist; // update max if nec
@@ -2106,10 +2107,10 @@ namespace MapDrawingAnalyzer
             for (int i = 2; i < 4; i++) { allCombos[i].Clear(); }
             for (int i = 0; i < allCombos[0].Count; i++)
             {
-                double lm1_X = Convert.ToDouble(actualMapCoordinates[1][Convert.ToInt32(allCombos[0][i])]);
-                double lm2_X = Convert.ToDouble(actualMapCoordinates[1][Convert.ToInt32(allCombos[1][i])]);
-                double lm1_Y = Convert.ToDouble(actualMapCoordinates[2][Convert.ToInt32(allCombos[0][i])]);
-                double lm2_Y = Convert.ToDouble(actualMapCoordinates[2][Convert.ToInt32(allCombos[1][i])]);
+                double lm1_X = Convert.ToDouble(actualMapCoordinates[1][Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture)], CultureInfo.InvariantCulture);
+                double lm2_X = Convert.ToDouble(actualMapCoordinates[1][Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture)], CultureInfo.InvariantCulture);
+                double lm1_Y = Convert.ToDouble(actualMapCoordinates[2][Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture)], CultureInfo.InvariantCulture);
+                double lm2_Y = Convert.ToDouble(actualMapCoordinates[2][Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture)], CultureInfo.InvariantCulture);
                 string NSjudgment = "";
                 string EWjudgment = "";
                 // N/S Jugment
@@ -2140,12 +2141,12 @@ namespace MapDrawingAnalyzer
             // calculate distances and angles between landmark pairs and find max distance, only consider landmarks which are not missing from participant's map
             for (int i = 0; i < allCombos[0].Count; i++)
             {
-                bool bothLandmarkDrawn = !landmarkMissing(Convert.ToInt32(allCombos[0][i]) + 1) && !landmarkMissing(Convert.ToInt32(allCombos[1][i]) + 1);
+                bool bothLandmarkDrawn = !landmarkMissing(Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture) + 1) && !landmarkMissing(Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture) + 1);
                 // calculate distance
-                double lm1_X = Convert.ToDouble(actualMapCoordinates[1][Convert.ToInt32(allCombos[0][i])]);
-                double lm2_X = Convert.ToDouble(actualMapCoordinates[1][Convert.ToInt32(allCombos[1][i])]);
-                double lm1_Y = Convert.ToDouble(actualMapCoordinates[2][Convert.ToInt32(allCombos[0][i])]);
-                double lm2_Y = Convert.ToDouble(actualMapCoordinates[2][Convert.ToInt32(allCombos[1][i])]);
+                double lm1_X = Convert.ToDouble(actualMapCoordinates[1][Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture)], CultureInfo.InvariantCulture);
+                double lm2_X = Convert.ToDouble(actualMapCoordinates[1][Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture)], CultureInfo.InvariantCulture);
+                double lm1_Y = Convert.ToDouble(actualMapCoordinates[2][Convert.ToInt32(allCombos[0][i], CultureInfo.InvariantCulture)], CultureInfo.InvariantCulture);
+                double lm2_Y = Convert.ToDouble(actualMapCoordinates[2][Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture)], CultureInfo.InvariantCulture);
                 double dbl_distance = Math.Sqrt(Math.Pow((lm2_X - lm1_X), 2) + Math.Pow((lm2_Y - lm1_Y), 2));
                 if (dbl_distance > currentMax && bothLandmarkDrawn) { currentMax = dbl_distance; }
                 string distance = Convert.ToString(dbl_distance);
@@ -2159,7 +2160,7 @@ namespace MapDrawingAnalyzer
             // calculate distance ratios and for landmark pairs
             for (int i = 0; i < allCombos[0].Count; i++)
             {
-                double distanceRatio = Convert.ToDouble(allCombos[4][i]) / currentMax;
+                double distanceRatio = Convert.ToDouble(allCombos[4][i], CultureInfo.InvariantCulture) / currentMax;
              //   if (distanceRatio > 1.0) { distanceRatio = 1.0; } // correct any double division error that may occur
                 allCombos[5].Add(Convert.ToString(distanceRatio));
             }
@@ -2239,7 +2240,7 @@ namespace MapDrawingAnalyzer
             {
                 for (int j = 0; j < participantsMap.Length; j++)
                 {
-                    participantsMapCoordinatesDBL[j].Add(Convert.ToDouble(participantsMap[j][i]));
+                    participantsMapCoordinatesDBL[j].Add(Convert.ToDouble(participantsMap[j][i], CultureInfo.InvariantCulture));
                 }
             }
 
@@ -2492,7 +2493,7 @@ namespace MapDrawingAnalyzer
                 string picBoxName = "";
                 picBoxName = ((PictureBox)sender).Name;
                 picBoxName = picBoxName.Remove(0, 15);
-                int nodeIndex = Convert.ToInt32(picBoxName) - 1;
+                int nodeIndex = Convert.ToInt32(picBoxName, CultureInfo.InvariantCulture) - 1;
                 int nextTop = ((PictureBox)sender).Top + (e.Y - y);
                 int nextLeft = ((PictureBox)sender).Left + (e.X - x);
                 // move landmark label
@@ -2527,7 +2528,7 @@ namespace MapDrawingAnalyzer
             string picBoxName = "";
             picBoxName = ((PictureBox)sender).Name;
             picBoxName = picBoxName.Remove(0, 15);
-            int nodeIndex = Convert.ToInt32(picBoxName) - 1;
+            int nodeIndex = Convert.ToInt32(picBoxName, CultureInfo.InvariantCulture) - 1;
             Point currentPos = nodes[nodeIndex].Location;
             Point newPos = missingDefaultPosition(nodeIndex);
             if (newPos.Equals(currentPos)) // landmark is already missing when double clicked, then move it back to initial location

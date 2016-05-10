@@ -9,11 +9,12 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Globalization;
 using UserRectDemo;
 using PointDClass;
 // Copyright 2014 Aaron Gardony
 // This program is distributed under the terms of the GNU General Public License
-// last update: 4/17/14 by Aaron Gardony
+// last update: 5/09/16 by Aaron Gardony
 namespace MapDrawingAnalyzer
 {
     public partial class advancedCoordsFileBuilder : Form
@@ -250,13 +251,13 @@ namespace MapDrawingAnalyzer
                     if (tempImage.Width >= tempImage.Height) // Case 1a: the width of the loaded image exceeds or is is equal to its height
                     {
                         downscale = (double)picturebox_map.Width / (double)tempImage.Width;
-                        newHeight = Convert.ToInt32(downscale * tempImage.Height);
+                        newHeight = Convert.ToInt32(downscale * tempImage.Height, CultureInfo.InvariantCulture);
                         finalImg = new Bitmap(tempImage, picturebox_map.Width, newHeight);
                     }
                     else if (tempImage.Height > tempImage.Width) // Case 1b: the height of the loaded image exceeds its width
                     {
                         downscale = (double)picturebox_map.Height / (double)tempImage.Height;
-                        newWidth = Convert.ToInt32(downscale * tempImage.Width);
+                        newWidth = Convert.ToInt32(downscale * tempImage.Width, CultureInfo.InvariantCulture);
                         finalImg = new Bitmap(tempImage, newWidth, picturebox_map.Height);
                     }
                 }
@@ -266,13 +267,13 @@ namespace MapDrawingAnalyzer
                     if (tempImage.Width >= tempImage.Height) // Case 2a: the width of the loaded image exceeds or is is equal to its height
                     {
                         upscale = (double)picturebox_map.Width / (double)tempImage.Width;
-                        newHeight = Convert.ToInt32(upscale * tempImage.Height);
+                        newHeight = Convert.ToInt32(upscale * tempImage.Height, CultureInfo.InvariantCulture);
                         finalImg = new Bitmap(tempImage, picturebox_map.Width, newHeight);
                     }
                     else if (tempImage.Height > tempImage.Width) // Case 2b: the height of the loaded image exceeds its width
                     {
                         upscale = (double)picturebox_map.Height / (double)tempImage.Height;
-                        newWidth = Convert.ToInt32(upscale * tempImage.Width);
+                        newWidth = Convert.ToInt32(upscale * tempImage.Width, CultureInfo.InvariantCulture);
                         finalImg = new Bitmap(tempImage, newWidth, picturebox_map.Height);
                     }
                 }
@@ -538,7 +539,7 @@ namespace MapDrawingAnalyzer
             if (numLandmarks > 0 && numLandmarks <= 48) { reset(); }
             try
             {
-                numLandmarks = Convert.ToInt32(tb_numLandmarks.Text);
+                numLandmarks = Convert.ToInt32(tb_numLandmarks.Text, CultureInfo.InvariantCulture);
                 if (numLandmarks <= 1) { throw new System.ArgumentException("Negative less than 2 are not allowed."); }
                 if (numLandmarks > 48) { throw new System.ArgumentException("Numbers greater than 48 are not allowed."); }
 
