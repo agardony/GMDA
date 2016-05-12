@@ -14,7 +14,7 @@ using UserRectDemo;
 using PointDClass;
 // Copyright 2014 Aaron Gardony
 // This program is distributed under the terms of the GNU General Public License
-// last update: 5/09/16 by Aaron Gardony
+// last update: 5/11/16 by Aaron Gardony
 namespace MapDrawingAnalyzer
 {
     public partial class advancedCoordsFileBuilder : Form
@@ -150,9 +150,9 @@ namespace MapDrawingAnalyzer
                     List<PointD> rectBordCartCoords = allRects[i].getRectBorderCartesianCoordinates();
                     for (int j = 0; j < rectBordCartCoords.Count; j++)
                     {
-                        writeString += dgv_coords[0, i].Value.ToString().Trim() + ",";
-                        writeString += Convert.ToString(counter) + ",";
-                        writeString += Convert.ToString(rectBordCartCoords[j].X) + "," + Convert.ToString(rectBordCartCoords[j].Y);
+                        writeString += Convert.ToString(dgv_coords[0, i].Value, CultureInfo.InvariantCulture).Trim() + ",";
+                        writeString += Convert.ToString(counter, CultureInfo.InvariantCulture) + ",";
+                        writeString += Convert.ToString(rectBordCartCoords[j].X, CultureInfo.InvariantCulture) + "," + Convert.ToString(rectBordCartCoords[j].Y, CultureInfo.InvariantCulture);
                         writeString += "\n";
                         counter++;
                     }
@@ -299,13 +299,13 @@ namespace MapDrawingAnalyzer
             if (landmarkNames != null) { landmarkNames.Clear(); }
             for (int i = 0; i < dgv_coords.RowCount; i++)
             {
-                if (dgv_coords[0, i].Value == null || dgv_coords[0, i].Value.ToString().Equals(""))
+                if (dgv_coords[0, i].Value == null || Convert.ToString(dgv_coords[0, i].Value, CultureInfo.InvariantCulture).Equals(""))
                 {
                     pass = false;
                 }
                 else
                 {
-                    landmarkNames.Add(dgv_coords[0, i].Value.ToString().Trim());
+                    landmarkNames.Add(Convert.ToString(dgv_coords[0, i].Value, CultureInfo.InvariantCulture).Trim());
                 }
             }
             return pass;

@@ -17,7 +17,7 @@ using Plexiglass;
 using AppLimit.NetSparkle;
 // Copyright 2014 Aaron Gardony
 // This program is distributed under the terms of the GNU General Public License
-// last update: 5/09/16 by Aaron Gardony
+// last update: 5/11/16 by Aaron Gardony
 namespace MapDrawingAnalyzer
 {
     public partial class Form1 : Form
@@ -149,7 +149,7 @@ namespace MapDrawingAnalyzer
                         catch { return false; }
                         nodesMissing[i] = false;
                         nodes[i].InitialImage = null;
-                        nodes[i].Name = "picturebox_node" + Convert.ToString(i + 1);
+                        nodes[i].Name = "picturebox_node" + Convert.ToString(i + 1, CultureInfo.InvariantCulture);
                         nodes[i].Size = new System.Drawing.Size(20, 20);
                         defaultPosition(i);
                         nodes[i].MouseDown += new System.Windows.Forms.MouseEventHandler(this.picturebox_MouseDown);
@@ -239,7 +239,7 @@ namespace MapDrawingAnalyzer
                     // attempt to load previously used configuration file
                     mainMenu.Focus();
                     cb_coordsFiles.SelectedItem = Properties.Settings.Default.prevCoordsFile;
-                    loadCoordinatesFile(cb_coordsFiles.SelectedItem.ToString());
+                    loadCoordinatesFile(Convert.ToString(cb_coordsFiles.SelectedItem, CultureInfo.InvariantCulture));
                 }
                 catch { }
             }
@@ -306,7 +306,7 @@ namespace MapDrawingAnalyzer
                                 tempArray = thisLine.Split(',');
                                 if (!tempArray[0].Equals(lastLandmark))
                                 {
-                                    tb_legend.Text += Convert.ToString(1 + Convert.ToInt32(tempArray[1], CultureInfo.InvariantCulture) / 8) + ". " + tempArray[0] + "\r\n"; // update legend
+                                    tb_legend.Text += Convert.ToString(1 + Convert.ToInt32(tempArray[1], CultureInfo.InvariantCulture) / 8, CultureInfo.InvariantCulture) + ". " + tempArray[0] + "\r\n"; // update legend
                                     landmarkNames.Add(tempArray[0]);
                                     lastLandmark = tempArray[0];
                                     numLandmarks++;
@@ -339,7 +339,7 @@ namespace MapDrawingAnalyzer
                     allCombos = new List<string>[8];
                     for (int i = 0; i < allCombos.Length; i++) { allCombos[i] = new List<string>(); }
                     generateCombinations(ref allCombos, actualMapCoordinates[0].Count);
-                    textbox_numLandmarks.Text = numLandmarks.ToString(); ;
+                    textbox_numLandmarks.Text = Convert.ToString(numLandmarks, CultureInfo.InvariantCulture); ;
                     if (picturebox_map.Tag.Equals("map")) 
                     {
                         b_rotate_ccw.Enabled = true;
@@ -390,12 +390,12 @@ namespace MapDrawingAnalyzer
                 case "basic":
                     for (int i = 0; i < landmarkNames.Count; i++)
                     {
-                        participantsMapCoordinates[0].Add(Convert.ToString(i + 1));
+                        participantsMapCoordinates[0].Add(Convert.ToString(i + 1, CultureInfo.InvariantCulture));
                         PointD p = getCartesianCoords(i + 1);
                         if (!landmarkMissing(i + 1))
                         {
-                            participantsMapCoordinates[1].Add(Convert.ToString(p.X));
-                            participantsMapCoordinates[2].Add(Convert.ToString(p.Y));
+                            participantsMapCoordinates[1].Add(Convert.ToString(p.X, CultureInfo.InvariantCulture));
+                            participantsMapCoordinates[2].Add(Convert.ToString(p.Y, CultureInfo.InvariantCulture));
                         }
                         else
                         {
@@ -446,11 +446,11 @@ namespace MapDrawingAnalyzer
                 cartCoords = advancedRotationAdjustment(cartCoords, rot);
                 for (int j = 0; j < cartCoords.Count; j++)
                 {
-                    participantsMapCoordinates[0].Add(Convert.ToString(counter));
+                    participantsMapCoordinates[0].Add(Convert.ToString(counter, CultureInfo.InvariantCulture));
                     if (allRects[i].getMissing() == false)
                     {
-                        participantsMapCoordinates[1].Add(Convert.ToString(cartCoords[j].X));
-                        participantsMapCoordinates[2].Add(Convert.ToString(cartCoords[j].Y));
+                        participantsMapCoordinates[1].Add(Convert.ToString(cartCoords[j].X, CultureInfo.InvariantCulture));
+                        participantsMapCoordinates[2].Add(Convert.ToString(cartCoords[j].Y, CultureInfo.InvariantCulture));
                     }
                     else
                     {
@@ -602,7 +602,7 @@ namespace MapDrawingAnalyzer
 
         private void updatePrevCoordsFile() // updates default val for prev coordinates file
         {
-            Properties.Settings.Default.prevCoordsFile = cb_coordsFiles.SelectedItem.ToString();
+            Properties.Settings.Default.prevCoordsFile = Convert.ToString(cb_coordsFiles.SelectedItem, CultureInfo.InvariantCulture);
             Properties.Settings.Default.Save();
         }
 
@@ -1103,7 +1103,7 @@ namespace MapDrawingAnalyzer
                             {
                                 configOutfile.WriteLine(i + "," + nodes[i].Left + "," + nodes[i].Top);
                             }
-                            configOutfile.WriteLine("currentRot = ," + currentRot.ToString());
+                            configOutfile.WriteLine("currentRot = ," + Convert.ToString(currentRot, CultureInfo.InvariantCulture));
                             configOutfile.WriteLine("Max d = ," + maxDist);
                             configOutfile.Close();
                             if (!autoWrite)
@@ -1139,9 +1139,9 @@ namespace MapDrawingAnalyzer
                                 string.Format("{0:yyyy-MM-dd_hh-mm-ss-tt}", now) + ".csv"; ;
                             for (int i = 0; i < allRects.Count; i++)
                             {
-                                configOutfile.WriteLine(i + "," + allRects[i].getRect().Location.X.ToString() + "," + allRects[i].getRect().Location.Y.ToString() + "," + allRects[i].getRect().Size.Width.ToString() + "," + allRects[i].getRect().Size.Height.ToString() + "," + allRects[i].getMissing().ToString());
+                                configOutfile.WriteLine(i + "," + Convert.ToString(allRects[i].getRect().Location.X, CultureInfo.InvariantCulture) + "," + Convert.ToString(allRects[i].getRect().Location.Y, CultureInfo.InvariantCulture) + "," + Convert.ToString(allRects[i].getRect().Size.Width, CultureInfo.InvariantCulture) + "," + Convert.ToString(allRects[i].getRect().Size.Height , CultureInfo.InvariantCulture) + "," + Convert.ToString(allRects[i].getMissing(), CultureInfo.InvariantCulture));
                             }
-                            configOutfile.WriteLine("currentRot = ," + currentRot.ToString());
+                            configOutfile.WriteLine("currentRot = ," + Convert.ToString(currentRot, CultureInfo.InvariantCulture));
                             configOutfile.WriteLine("Max d = ," + maxDist); // need to implement for advanced mode
                             configOutfile.Close();
                             if (!autoWrite)
@@ -1603,7 +1603,7 @@ namespace MapDrawingAnalyzer
                 {
                     GMDA_by_landmarks[source][1].Add(2.0);
                     GMDA_by_landmarks[target][1].Add(2.0);
-                    observedDistance = getDistance(sourceLandmarkNum, targetLandmarkNum).ToString();
+                    observedDistance = Convert.ToString(getDistance(sourceLandmarkNum, targetLandmarkNum), CultureInfo.InvariantCulture);
                     OminusADistance = Convert.ToDouble(tempArray[2], CultureInfo.InvariantCulture) - Convert.ToDouble(allCombos[5][i], CultureInfo.InvariantCulture);
                     ABSOminusADistance = Math.Abs(OminusADistance);
 
@@ -1669,15 +1669,15 @@ namespace MapDrawingAnalyzer
                         + tempArray[0] + "," // Observed(N/S)
                         + tempArray[1] // Observed(E/W)
                         + "," + actualDistance // Actual distance
-                        + "," + allCombos[5][i].ToString() // Actual D ratio
-                        + "," + allCombos[6][i].ToString() // Actual Angle
+                        + "," + Convert.ToString(allCombos[5][i] , CultureInfo.InvariantCulture) // Actual D ratio
+                        + "," + Convert.ToString(allCombos[6][i] , CultureInfo.InvariantCulture) // Actual Angle
                         + "," + observedDistance // observed distance
                         + "," + tempArray[2] // Observed D ratio
                         + "," + tempArray[3] // Observed Angle
-                        + "," + OminusADistance.ToString() // O-A Distance Ratio
-                        + "," + OminusAAngle.ToString() // O-A Angle
-                        + "," + ABSOminusADistance.ToString() // ABS(O-A) Distance
-                        + "," + ABSOminusAAngle.ToString()); // ABS(O-A) Angle
+                        + "," + Convert.ToString(OminusADistance, CultureInfo.InvariantCulture)// O-A Distance Ratio
+                        + "," + Convert.ToString(OminusAAngle, CultureInfo.InvariantCulture) // O-A Angle
+                        + "," + Convert.ToString(ABSOminusADistance, CultureInfo.InvariantCulture) // ABS(O-A) Distance
+                        + "," + Convert.ToString(ABSOminusAAngle, CultureInfo.InvariantCulture)); // ABS(O-A) Angle
                 }
             }
             // loop completed
@@ -1719,8 +1719,8 @@ namespace MapDrawingAnalyzer
                 outfile2.WriteLine("GMDA_c," + saveName + "," + "Num Landmarks Missing," + numMissing);
                 outfile2.WriteLine("GMDA_c," + saveName + "," + "Scaling Bias," + distanceSum / numDistanceCorrect);
                 outfile2.WriteLine("GMDA_c," + saveName + "," + "Rotational Bias," + (180 / Math.PI) * Math.Atan2(sinSum / numDistanceCorrect, cosSum / numDistanceCorrect));
-                outfile2.WriteLine("GMDA_c," + saveName + "," + "Distance Accuracy," + (1 - (ABSdistanceSum / numDistanceCorrect)).ToString());
-                outfile2.WriteLine("GMDA_c," + saveName + "," + "Angle Accuracy," + (1 - ((ABSangleSum / numDistanceCorrect) / 180.0)).ToString());
+                outfile2.WriteLine("GMDA_c," + saveName + "," + "Distance Accuracy," + Convert.ToString((1 - (ABSdistanceSum / numDistanceCorrect)), CultureInfo.InvariantCulture));
+                outfile2.WriteLine("GMDA_c," + saveName + "," + "Angle Accuracy," + Convert.ToString((1 - ((ABSangleSum / numDistanceCorrect) / 180.0)), CultureInfo.InvariantCulture));
 
 
                 outfile2.WriteLine("\nConfigural BDR Parameters");
@@ -1729,16 +1729,16 @@ namespace MapDrawingAnalyzer
                 {
                     // write BDR parameters
                     outfile2.WriteLine("\nMeasure Type,Filename,Measure,Score");
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "r," + Convert.ToString(BDR_parameters[1]));
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "alpha 1," + Convert.ToString(BDR_parameters[2]));
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "alpha 2," + Convert.ToString(BDR_parameters[3]));
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "beta 1," + Convert.ToString(BDR_parameters[4]));
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "beta 2," + Convert.ToString(BDR_parameters[5]));
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "scale," + Convert.ToString(BDR_parameters[6]));
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "theta," + Convert.ToString(BDR_parameters[7]));
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "DMax," + Convert.ToString(BDR_parameters[8]));
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "D," + Convert.ToString(BDR_parameters[9]));
-                    outfile2.WriteLine("BDR_c," + saveName + "," + "DI," + Convert.ToString(BDR_parameters[10]));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "r," + Convert.ToString(BDR_parameters[1], CultureInfo.InvariantCulture));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "alpha 1," + Convert.ToString(BDR_parameters[2], CultureInfo.InvariantCulture));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "alpha 2," + Convert.ToString(BDR_parameters[3], CultureInfo.InvariantCulture));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "beta 1," + Convert.ToString(BDR_parameters[4], CultureInfo.InvariantCulture));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "beta 2," + Convert.ToString(BDR_parameters[5], CultureInfo.InvariantCulture));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "scale," + Convert.ToString(BDR_parameters[6], CultureInfo.InvariantCulture));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "theta," + Convert.ToString(BDR_parameters[7], CultureInfo.InvariantCulture));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "DMax," + Convert.ToString(BDR_parameters[8], CultureInfo.InvariantCulture));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "D," + Convert.ToString(BDR_parameters[9], CultureInfo.InvariantCulture));
+                    outfile2.WriteLine("BDR_c," + saveName + "," + "DI," + Convert.ToString(BDR_parameters[10], CultureInfo.InvariantCulture));
 
                     outfile2.WriteLine("\nGMDA measures for individual landmarks\n");
                     outfile2.WriteLine("Measure Type,Filename,Landmark,Measure,Score");
@@ -1792,11 +1792,11 @@ namespace MapDrawingAnalyzer
                             AngAcc = 1 - ((AngAcc / divisor) / 180.0);
                             
                            
-                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Canonical Accuracy," + CanAcc.ToString());
-                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Scaling Bias," + ScalingBias.ToString());
-                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Rotational Bias," + RotationalBias.ToString());
-                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Distance Accuracy," + DistAcc.ToString());
-                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Angle Accuracy," + AngAcc.ToString());
+                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Canonical Accuracy," + Convert.ToString(CanAcc, CultureInfo.InvariantCulture));
+                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Scaling Bias," + Convert.ToString(ScalingBias, CultureInfo.InvariantCulture));
+                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Rotational Bias," + Convert.ToString(RotationalBias, CultureInfo.InvariantCulture));
+                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Distance Accuracy," + Convert.ToString(DistAcc, CultureInfo.InvariantCulture));
+                            outfile2.WriteLine("GMDA_i," + saveName + "," + landmarkName + "," + "Angle Accuracy," + Convert.ToString(AngAcc, CultureInfo.InvariantCulture));
                             if (jLim == 8) { i += 7; }
                         }
                         else
@@ -1828,16 +1828,16 @@ namespace MapDrawingAnalyzer
                         {
                             if (Box_BDR_parameters[i, 0] != 0)
                             {
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "r," + Convert.ToString(Box_BDR_parameters[i, 1]));
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "alpha 1," + Convert.ToString(Box_BDR_parameters[i, 2]));
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "alpha 2," + Convert.ToString(Box_BDR_parameters[i, 3]));
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "beta 1," + Convert.ToString(Box_BDR_parameters[i, 4]));
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "beta 2," + Convert.ToString(Box_BDR_parameters[i, 5]));
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "scale," + Convert.ToString(Box_BDR_parameters[i, 6]));
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "theta," + Convert.ToString(Box_BDR_parameters[i, 7]));
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "DMax," + Convert.ToString(Box_BDR_parameters[i, 8]));
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "D," + Convert.ToString(Box_BDR_parameters[i, 9]));
-                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "DI," + Convert.ToString(Box_BDR_parameters[i, 10]));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "r," + Convert.ToString(Box_BDR_parameters[i, 1], CultureInfo.InvariantCulture));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "alpha 1," + Convert.ToString(Box_BDR_parameters[i, 2], CultureInfo.InvariantCulture));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "alpha 2," + Convert.ToString(Box_BDR_parameters[i, 3], CultureInfo.InvariantCulture));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "beta 1," + Convert.ToString(Box_BDR_parameters[i, 4], CultureInfo.InvariantCulture));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "beta 2," + Convert.ToString(Box_BDR_parameters[i, 5], CultureInfo.InvariantCulture));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "scale," + Convert.ToString(Box_BDR_parameters[i, 6], CultureInfo.InvariantCulture));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "theta," + Convert.ToString(Box_BDR_parameters[i, 7], CultureInfo.InvariantCulture));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "DMax," + Convert.ToString(Box_BDR_parameters[i, 8], CultureInfo.InvariantCulture));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "D," + Convert.ToString(Box_BDR_parameters[i, 9], CultureInfo.InvariantCulture));
+                                outfile2.WriteLine("BDR_i," + saveName + "," + landmarkNames[i] + "," + "DI," + Convert.ToString(Box_BDR_parameters[i, 10], CultureInfo.InvariantCulture));
                             }
                             else
                             {
@@ -1875,7 +1875,7 @@ namespace MapDrawingAnalyzer
                         double b_prime = A_prime_B_prime[2][j];
                         if (currentMode.Equals("advanced")) { currentIndex = currentIndex / 8; }
                         string l = landmarkNames[currentIndex];
-                        if (currentMode.Equals("advanced")) { l += "_" + j.ToString(); }
+                        if (currentMode.Equals("advanced")) { l += "_" + Convert.ToString(j, CultureInfo.InvariantCulture); }
                         outfile.WriteLine(l + "," + x + "," + y + "," + a + "," + b + "," + a_prime + "," + b_prime);
                     }
                 }
@@ -1908,8 +1908,8 @@ namespace MapDrawingAnalyzer
                                 "\nCanonical Accuracy = " + Math.Round(percentObservedCorrect, 3) +
                                 "\nScaling Bias = " + Math.Round(distanceSum / numDistanceCorrect, 3) +
                                 "\nRotational Bias = " + Math.Round(angleMean_deg, 3) +
-                                "\nDistance Accuracy = " + Math.Round((1 - (ABSdistanceSum / numDistanceCorrect)), 3).ToString() +
-                                "\nAngle Accuracy = " + Math.Round((1 - ((ABSangleSum / numDistanceCorrect) / 180.0)), 3).ToString();
+                                "\nDistance Accuracy = " + Convert.ToString(Math.Round((1 - (ABSdistanceSum / numDistanceCorrect)), 3), CultureInfo.InvariantCulture) +
+                                "\nAngle Accuracy = " + Convert.ToString(Math.Round((1 - ((ABSangleSum / numDistanceCorrect) / 180.0)), 3), CultureInfo.InvariantCulture);
             if (BDR_parameters[0] == 0.0)
             {
                 messageBoxString += "\n\nUnable to calculate BDR parameters";
@@ -1917,16 +1917,16 @@ namespace MapDrawingAnalyzer
             else
             {
                 messageBoxString += "\n\nBDR Parameters\n\n" +
-                                    "r = " + Convert.ToString(Math.Round(BDR_parameters[1], 3)) +
-                                    "\nalpha 1 = " + Convert.ToString(Math.Round(BDR_parameters[2], 3)) +
-                                    "\nalpha 2 = " + Convert.ToString(Math.Round(BDR_parameters[3], 3)) +
-                                    "\nbeta 1 = " + Convert.ToString(Math.Round(BDR_parameters[4], 3)) +
-                                    "\nbeta 2 = " + Convert.ToString(Math.Round(BDR_parameters[5], 3)) +
-                                    "\nscale = " + Convert.ToString(Math.Round(BDR_parameters[6], 3)) +
-                                    "\ntheta = " + Convert.ToString(Math.Round(BDR_parameters[7], 3)) +
-                                    "\nDMax = " + Convert.ToString(Math.Round(BDR_parameters[8], 3)) +
-                                    "\nD = " + Convert.ToString(Math.Round(BDR_parameters[9], 3)) +
-                                    "\nDI = " + Convert.ToString(Math.Round(BDR_parameters[10], 3));
+                                    "r = " + Convert.ToString(Math.Round(BDR_parameters[1], 3), CultureInfo.InvariantCulture) +
+                                    "\nalpha 1 = " + Convert.ToString(Math.Round(BDR_parameters[2], 3), CultureInfo.InvariantCulture) +
+                                    "\nalpha 2 = " + Convert.ToString(Math.Round(BDR_parameters[3], 3), CultureInfo.InvariantCulture) +
+                                    "\nbeta 1 = " + Convert.ToString(Math.Round(BDR_parameters[4], 3), CultureInfo.InvariantCulture) +
+                                    "\nbeta 2 = " + Convert.ToString(Math.Round(BDR_parameters[5], 3), CultureInfo.InvariantCulture) +
+                                    "\nscale = " + Convert.ToString(Math.Round(BDR_parameters[6], 3), CultureInfo.InvariantCulture) +
+                                    "\ntheta = " + Convert.ToString(Math.Round(BDR_parameters[7], 3), CultureInfo.InvariantCulture) +
+                                    "\nDMax = " + Convert.ToString(Math.Round(BDR_parameters[8], 3), CultureInfo.InvariantCulture) +
+                                    "\nD = " + Convert.ToString(Math.Round(BDR_parameters[9], 3), CultureInfo.InvariantCulture) +
+                                    "\nDI = " + Convert.ToString(Math.Round(BDR_parameters[10], 3), CultureInfo.InvariantCulture);
             }
 
             if (!multifile) { MessageBox.Show(messageBoxString, "Data"); }
@@ -1989,7 +1989,7 @@ namespace MapDrawingAnalyzer
             string distanceRatio = "";
             double dblDistanceRatio = 0.0;
             dblDistanceRatio = getDistance(L1, L2) / maxDist;
-            distanceRatio = dblDistanceRatio.ToString();
+            distanceRatio = Convert.ToString(dblDistanceRatio, CultureInfo.InvariantCulture);
             return distanceRatio;
         }
 
@@ -2036,7 +2036,7 @@ namespace MapDrawingAnalyzer
             
             dblAngle = Math.Atan2(p_L2.X - p_L1.X, p_L2.Y - p_L1.Y);
             dblAngle = (180.0 / Math.PI) * dblAngle;// convert rads to degrees
-            angle = dblAngle.ToString();
+            angle = Convert.ToString(dblAngle, CultureInfo.InvariantCulture);
             return angle;
         }
 
@@ -2082,8 +2082,8 @@ namespace MapDrawingAnalyzer
                         {
                             if (i != j)
                             {
-                                allCombos[0].Add(Convert.ToString(i));
-                                allCombos[1].Add(Convert.ToString(j));
+                                allCombos[0].Add(Convert.ToString(i, CultureInfo.InvariantCulture));
+                                allCombos[1].Add(Convert.ToString(j, CultureInfo.InvariantCulture));
                             }
                             j++;
                         }
@@ -2094,8 +2094,8 @@ namespace MapDrawingAnalyzer
                     {
                         for (int j = (i/8 + 1) * 8; j < numLandmarks; j++)
                         {
-                            allCombos[0].Add(Convert.ToString(i));
-                            allCombos[1].Add(Convert.ToString(j));
+                            allCombos[0].Add(Convert.ToString(i, CultureInfo.InvariantCulture));
+                            allCombos[1].Add(Convert.ToString(j, CultureInfo.InvariantCulture));
                         }
                     }
                     break;
@@ -2149,20 +2149,20 @@ namespace MapDrawingAnalyzer
                 double lm2_Y = Convert.ToDouble(actualMapCoordinates[2][Convert.ToInt32(allCombos[1][i], CultureInfo.InvariantCulture)], CultureInfo.InvariantCulture);
                 double dbl_distance = Math.Sqrt(Math.Pow((lm2_X - lm1_X), 2) + Math.Pow((lm2_Y - lm1_Y), 2));
                 if (dbl_distance > currentMax && bothLandmarkDrawn) { currentMax = dbl_distance; }
-                string distance = Convert.ToString(dbl_distance);
+                string distance = Convert.ToString(dbl_distance, CultureInfo.InvariantCulture);
                 allCombos[4].Add(distance);
                 allCombos[7].Add(distance);
                 // calculate angles
                 double dblAngle = Math.Atan2(lm2_X - lm1_X, lm2_Y - lm1_Y);
                 dblAngle = (180.0 / Math.PI) * dblAngle;// convert rads to degrees
-                allCombos[6].Add(Convert.ToString(dblAngle));
+                allCombos[6].Add(Convert.ToString(dblAngle, CultureInfo.InvariantCulture));
             }
             // calculate distance ratios and for landmark pairs
             for (int i = 0; i < allCombos[0].Count; i++)
             {
                 double distanceRatio = Convert.ToDouble(allCombos[4][i], CultureInfo.InvariantCulture) / currentMax;
              //   if (distanceRatio > 1.0) { distanceRatio = 1.0; } // correct any double division error that may occur
-                allCombos[5].Add(Convert.ToString(distanceRatio));
+                allCombos[5].Add(Convert.ToString(distanceRatio, CultureInfo.InvariantCulture));
             }
         }
 
@@ -2706,12 +2706,12 @@ namespace MapDrawingAnalyzer
 
         private void b_rotate_ccw_Click(object sender, EventArgs e)
         {
-            if (picturebox_map.Tag.ToString().Equals("map")) { rotateWorkspace(true, "ccw"); }
+            if (Convert.ToString(picturebox_map.Tag, CultureInfo.InvariantCulture).Equals("map")) { rotateWorkspace(true, "ccw"); }
         }
 
         private void b_rotate_cw_Click(object sender, EventArgs e)
         {
-            if (picturebox_map.Tag.ToString().Equals("map")) { rotateWorkspace(true, "cw"); }
+            if (Convert.ToString(picturebox_map.Tag, CultureInfo.InvariantCulture).Equals("map")) { rotateWorkspace(true, "cw"); }
         }
 
         private void button_preview_Click(object sender, EventArgs e) // Preview
@@ -2739,7 +2739,7 @@ namespace MapDrawingAnalyzer
             // update prev coordinates file setting
             string currentMode = Properties.Settings.Default.currentMode;
             updatePrevCoordsFile();
-            loadCoordinatesFile(cb_coordsFiles.SelectedItem.ToString());
+            loadCoordinatesFile(Convert.ToString(cb_coordsFiles.SelectedItem, CultureInfo.InvariantCulture));
             this.Refresh();
             if(currentMode.Equals("basic")){highlightPanel(panel_highlight_labels);}
         }

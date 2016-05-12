@@ -14,7 +14,7 @@ using UserRectDemo;
 using PointDClass;
 // Copyright 2014 Aaron Gardony
 // This program is distributed under the terms of the GNU General Public License
-// last update: 5/09/16 by Aaron Gardony
+// last update: 5/11/16 by Aaron Gardony
 namespace MapDrawingAnalyzer
 {
     public partial class Form2 : Form
@@ -84,7 +84,7 @@ namespace MapDrawingAnalyzer
                 catch { return false; }
 
                 nodes[i].InitialImage = null;
-                nodes[i].Name = "picturebox_node" + Convert.ToString(i + 1);
+                nodes[i].Name = "picturebox_node" + Convert.ToString(i + 1, CultureInfo.InvariantCulture);
                 nodes[i].Size = new System.Drawing.Size(20, 20);
                 defaultPosition(i);
                 nodes[i].MouseDown += new System.Windows.Forms.MouseEventHandler(this.picturebox_MouseDown);
@@ -263,8 +263,8 @@ namespace MapDrawingAnalyzer
                         {
                             for (int j = 0; j < dgv_coords.ColumnCount; j++)
                             {
-                                if (j < dgv_coords.ColumnCount - 1) { writeString += dgv_coords[j, i].Value.ToString().Trim() + ","; }
-                                else { writeString += dgv_coords[j, i].Value.ToString().Trim() + "\n"; }
+                                if (j < dgv_coords.ColumnCount - 1) { writeString += Convert.ToString(dgv_coords[j, i].Value, CultureInfo.InvariantCulture).Trim() + ","; }
+                                else { writeString += Convert.ToString(dgv_coords[j, i].Value, CultureInfo.InvariantCulture).Trim() + "\n"; }
                             }
                         }
                         break;
@@ -272,7 +272,7 @@ namespace MapDrawingAnalyzer
                         for (int i = 0; i < dgv_coords.RowCount; i++)
                         {
                             PointD cartCoords = getCartesianCoords(i + 1);
-                            writeString += dgv_coords[0, i].Value.ToString().Trim() + "," + dgv_coords[1, i].Value.ToString().Trim() + "," + cartCoords.X.ToString() + "," + cartCoords.Y.ToString() + "\n";
+                            writeString += Convert.ToString(dgv_coords[0, i].Value, CultureInfo.InvariantCulture).Trim() + "," + Convert.ToString(dgv_coords[1, i].Value, CultureInfo.InvariantCulture).Trim() + "," + Convert.ToString(cartCoords.X, CultureInfo.InvariantCulture) + "," + Convert.ToString(cartCoords.Y, CultureInfo.InvariantCulture) + "\n";
                         }
                         break;
                 }
@@ -442,7 +442,7 @@ namespace MapDrawingAnalyzer
                 {
                     for (int j = 0; j < max; j++)
                     {
-                        if (dgv_coords[j, i].Value == null || dgv_coords[j, i].Value.ToString().Equals(""))
+                        if (dgv_coords[j, i].Value == null || Convert.ToString(dgv_coords[j, i].Value, CultureInfo.InvariantCulture).Equals(""))
                         {
                             pass = false;
                         }
@@ -450,8 +450,8 @@ namespace MapDrawingAnalyzer
                         {
                             if (j == 0)
                             {
-                                landmarkNames.Add(dgv_coords[j, i].Value.ToString().Trim());
-                                tb_legend.Text += Convert.ToString(i + 1) + ". " + landmarkNames[landmarkNames.Count - 1] + "\r\n";
+                                landmarkNames.Add(Convert.ToString(dgv_coords[j, i].Value, CultureInfo.InvariantCulture).Trim());
+                                tb_legend.Text += Convert.ToString(i + 1, CultureInfo.InvariantCulture) + ". " + landmarkNames[landmarkNames.Count - 1] + "\r\n";
                             }
                         }
                     }
