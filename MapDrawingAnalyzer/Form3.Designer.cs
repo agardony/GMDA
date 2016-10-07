@@ -119,7 +119,7 @@
             this.copy,
             this.paste});
             this.contextMenuStrip_dgvCoords.Name = "contextMenuStrip_dgvCoords";
-            this.contextMenuStrip_dgvCoords.Size = new System.Drawing.Size(160, 92);
+            this.contextMenuStrip_dgvCoords.Size = new System.Drawing.Size(160, 70);
             // 
             // cut
             // 
@@ -229,9 +229,9 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 730);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 808);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(884, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(872, 22);
             this.statusStrip1.TabIndex = 51;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -298,8 +298,8 @@
             // 
             // advancedCoordsFileBuilder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(884, 752);
             this.Controls.Add(this.pb_goBack);
             this.Controls.Add(this.pb_reset);

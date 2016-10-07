@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 // Copyright 2014 Aaron Gardony
 // This program is distributed under the terms of the GNU General Public License
-// last update: 5/09/16 by Aaron Gardony
+// last update: 4/17/14 by Aaron Gardony
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information

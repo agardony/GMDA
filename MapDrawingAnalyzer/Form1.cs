@@ -511,11 +511,12 @@ namespace MapDrawingAnalyzer
                     {
                         if (nodeIndex < 16)
                         {
-                            nodeYPos = 31 + (nodeIndex * 25);
+                            
+                            nodeYPos = picturebox_map.Location.Y + (nodeIndex * 25);
                         }
                         else
                         {
-                            nodeYPos = 31 + (nodeIndex % 16) * 25;
+                            nodeYPos = picturebox_map.Location.Y + (nodeIndex % 16) * 25;
                         }
                         nodes[nodeIndex].Location = new System.Drawing.Point(nodeXPos, nodeYPos);
                         labelStartPos[nodeIndex].X = nodeXPos;
@@ -526,11 +527,11 @@ namespace MapDrawingAnalyzer
                     {
                         if (nodeIndex < 8)
                         {
-                            nodeXPosRect = 30 + (nodeIndex * 80);
+                            nodeXPosRect = picturebox_map.Location.X + 25 + (nodeIndex * 80);
                         }
                         else
                         {
-                            nodeXPosRect = 30 + (nodeIndex % 8) * 80;
+                            nodeXPosRect = picturebox_map.Location.X + 25 + (nodeIndex % 8) * 80;
                         }
                         allRects.Add(new UserRect(new Rectangle(new System.Drawing.Point(nodeXPosRect, nodeYPosRect), new Size(30, 30)), landmarkNames[nodeIndex]));
                         boxStartPos[nodeIndex].X = nodeXPosRect;
@@ -1434,6 +1435,7 @@ namespace MapDrawingAnalyzer
 
         private void highlightPanel(System.Windows.Forms.Panel panel)
         {
+            panel.Location = new Point(panel.Location.X,picturebox_map.Location.Y);// fix for win 10 zooming issue 
             Form pg_form = new Plexiglass.Plexiglass(panel, this);
             for (int i = 0; i < 4; i++)
             {
