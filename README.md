@@ -48,8 +48,8 @@ The analysis generates both configural (whole-map) and per-landmark measures of 
 
 ## Installation
 
-```bash
-git https://github.com/agardony/GMDA.git
+```
+git clone https://github.com/agardony/GMDA.git
 ```
 
 For Windows users, you can download the GMDA executable [here](https://www.aarongardony.com/tools/map-drawing-analyzer).
