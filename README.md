@@ -1,4 +1,3 @@
-# README.md
 # Gardony Map Drawing Analyzer (GMDA)
 
 The Gardony Map Drawing Analyzer (GMDA) is a tool for analyzing sketch maps in spatial cognition research. 
